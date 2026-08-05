@@ -1,0 +1,27 @@
+# --- Python virtual environment -------------------------------------------
+# 300+ MB of installed packages. Never committed, the grader rebuilds it
+# from requirements.txt instead.
+.venv/
+venv/
+
+# --- Secrets ---------------------------------------------------------------
+# ANTHROPIC_API_KEY lives in the shell environment, never on disk.
+# These lines are belt-and-suspenders in case a .env is ever created.
+.env
+.env.local
+*.pem
+*.key
+
+# --- Python build artifacts ------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# --- Jupyter ---------------------------------------------------------------
+# Checkpoint files are editor state, not source.
+.ipynb_checkpoints/
+
+# --- OS / editor noise -----------------------------------------------------
+Thumbs.db
+.DS_Store
+.vscode/
