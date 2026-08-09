@@ -1,0 +1,252 @@
+[
+  {
+    "name": "rca.llm_call",
+    "span_id": "804aa06427e4a305",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243028617714900,
+    "end_time_unix_nano": 1786243030750013900,
+    "duration_ms": 2132.299,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.iteration": 1,
+      "gen_ai.system": "anthropic",
+      "gen_ai.operation.name": "chat",
+      "gen_ai.request.model": "claude-haiku-4-5-20251001",
+      "gen_ai.usage.input_tokens": 1140,
+      "gen_ai.usage.output_tokens": 279,
+      "gen_ai.response.finish_reasons": [
+        "tool_use"
+      ],
+      "gen_ai.usage.cost_usd": 0.002535
+    }
+  },
+  {
+    "name": "rca.tool.get_metrics",
+    "span_id": "6a43a48d5c29f0ac",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243030750109200,
+    "end_time_unix_nano": 1786243030781123000,
+    "duration_ms": 31.0138,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.tool.name": "get_metrics",
+      "rca.tool.start_time": "2025-10-05T13:30:00",
+      "rca.tool.end_time": "2025-10-05T14:15:00",
+      "rca.tool.result_chars": 1286
+    }
+  },
+  {
+    "name": "rca.tool.get_metrics",
+    "span_id": "c6c60ee4692cb2e6",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243030781210400,
+    "end_time_unix_nano": 1786243030794620700,
+    "duration_ms": 13.4103,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.tool.name": "get_metrics",
+      "rca.tool.start_time": "2025-10-05T14:15:00",
+      "rca.tool.end_time": "2025-10-05T14:45:00",
+      "rca.tool.result_chars": 1286
+    }
+  },
+  {
+    "name": "rca.tool.get_logs",
+    "span_id": "5eb67d7d0976751e",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243030794688400,
+    "end_time_unix_nano": 1786243030795236600,
+    "duration_ms": 0.5482,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.tool.name": "get_logs",
+      "rca.tool.start_time": "2025-10-05T13:45:00",
+      "rca.tool.end_time": "2025-10-05T14:45:00",
+      "rca.tool.result_chars": 5964
+    }
+  },
+  {
+    "name": "rca.llm_call",
+    "span_id": "85be9c61d3a4a526",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243030795293600,
+    "end_time_unix_nano": 1786243032780483800,
+    "duration_ms": 1985.1902,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.iteration": 2,
+      "gen_ai.system": "anthropic",
+      "gen_ai.operation.name": "chat",
+      "gen_ai.request.model": "claude-haiku-4-5-20251001",
+      "gen_ai.usage.input_tokens": 5316,
+      "gen_ai.usage.output_tokens": 301,
+      "gen_ai.response.finish_reasons": [
+        "tool_use"
+      ],
+      "gen_ai.usage.cost_usd": 0.006821
+    }
+  },
+  {
+    "name": "rca.tool.get_logs",
+    "span_id": "f1cf858fd4614f6d",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243032780548300,
+    "end_time_unix_nano": 1786243032781092400,
+    "duration_ms": 0.5441,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.tool.name": "get_logs",
+      "rca.tool.start_time": "2025-10-05T14:00:00",
+      "rca.tool.end_time": "2025-10-05T14:15:00",
+      "rca.tool.result_chars": 8106
+    }
+  },
+  {
+    "name": "rca.tool.get_logs",
+    "span_id": "edf9152ec01f36ac",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243032781132300,
+    "end_time_unix_nano": 1786243032781479100,
+    "duration_ms": 0.3468,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.tool.name": "get_logs",
+      "rca.tool.start_time": "2025-10-05T14:15:00",
+      "rca.tool.end_time": "2025-10-05T14:40:00",
+      "rca.tool.result_chars": 8934
+    }
+  },
+  {
+    "name": "rca.tool.get_logs",
+    "span_id": "dd7615f8e4c22ed3",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243032781516800,
+    "end_time_unix_nano": 1786243032781846100,
+    "duration_ms": 0.3293,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.tool.name": "get_logs",
+      "rca.tool.start_time": "2025-10-05T14:00:00",
+      "rca.tool.end_time": "2025-10-05T14:40:00",
+      "rca.tool.result_chars": 9147
+    }
+  },
+  {
+    "name": "rca.llm_call",
+    "span_id": "4a6c21f9df248b6c",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243032781876500,
+    "end_time_unix_nano": 1786243034184228200,
+    "duration_ms": 1402.3517,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.iteration": 3,
+      "gen_ai.system": "anthropic",
+      "gen_ai.operation.name": "chat",
+      "gen_ai.request.model": "claude-haiku-4-5-20251001",
+      "gen_ai.usage.input_tokens": 16140,
+      "gen_ai.usage.output_tokens": 133,
+      "gen_ai.response.finish_reasons": [
+        "tool_use"
+      ],
+      "gen_ai.usage.cost_usd": 0.016805
+    }
+  },
+  {
+    "name": "rca.tool.get_logs",
+    "span_id": "804d2f3a5c7a19eb",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243034184385300,
+    "end_time_unix_nano": 1786243034185593200,
+    "duration_ms": 1.2079,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.tool.name": "get_logs",
+      "rca.tool.start_time": "2025-10-05T14:30:00",
+      "rca.tool.end_time": "2025-10-05T14:50:00",
+      "rca.tool.result_chars": 7816
+    }
+  },
+  {
+    "name": "rca.llm_call",
+    "span_id": "c2d5fa5ffccd176f",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": "8059bdd76e784a7e",
+    "start_time_unix_nano": 1786243034185698000,
+    "end_time_unix_nano": 1786243055796821300,
+    "duration_ms": 21611.1233,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.iteration": 4,
+      "gen_ai.system": "anthropic",
+      "gen_ai.operation.name": "chat",
+      "gen_ai.request.model": "claude-haiku-4-5-20251001",
+      "gen_ai.usage.input_tokens": 19354,
+      "gen_ai.usage.output_tokens": 2000,
+      "gen_ai.response.finish_reasons": [
+        "max_tokens"
+      ],
+      "gen_ai.usage.cost_usd": 0.029354
+    }
+  },
+  {
+    "name": "rca.investigation",
+    "span_id": "8059bdd76e784a7e",
+    "trace_id": "a9a057726c90f1a21b51b292f0662d3b",
+    "parent_span_id": null,
+    "start_time_unix_nano": 1786243028617657800,
+    "end_time_unix_nano": 1786243055796862200,
+    "duration_ms": 27179.2044,
+    "status": {
+      "status_code": "UNSET",
+      "description": null
+    },
+    "attributes": {
+      "rca.total_iterations": 4,
+      "rca.total_cost_usd": 0.055515
+    }
+  }
+]
